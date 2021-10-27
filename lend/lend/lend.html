@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lend.mn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ionicons.min.css">   
+    <link rel="stylesheet" href="lend.css" class="">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.svg" width="50%" alt="" class=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-md-auto">
+              <a class="nav-link active" aria-current="page" href="#">ЛЭНДМН ХЭТЭВЧ</a>
+              <a class="nav-link" href="#">ЛЭНДМН ХУВЬЦАА</a>
+              <a class="nav-link" href="#">БИДНИЙ ТУХАЙ</a>
+              <a class="nav-link" href="#">МЭДЭЭ</a>
+              <a class="nav-link" href="#">АЖЛЫН БАЙР</a>
+              <a class="nav-link" href="#">ТУСЛАМЖ</a>
+              <a class="nav-link" href="#"><img src="eng.png" alt="" class=""></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="col-md-12  bg-image-header  mt-0" style="background-image: url(lend1.jpg);">
+        <div class="container heseg" style="height: 200px;">
+            <div class="row text-center">
+                <h3 class="sectionheader col-md-12  mt-0" style="color:white !important; padding-top: 2em;">ЛэндМН хэтэвч</h3>
+                <h6 class="col-md-12 subheadercenter mt-0" style="color:white !important;">Бүтээгдхүүний дэлгэрэнгүй танилцуулга
+                </h6>
+            </div>
+        </div>
+    </div>
+    <ul class="submenu text-center">
+        <li><a href="#user" onclick="resetHref();"> Хэрэглэгч болох алхам</a></li>
+        <li><a href="#charge" onclick="resetHref();">Хэтэвчээ цэнэглэх боломжууд</a></li>
+        <li><a href="#pay" onclick="resetHref();">Төлбөр хийх</a></li>
+        <li><a href="#require" onclick="resetHref();">Тавигдах шаардлага</a></li>
+    </ul>
+     <div class="container heseg">
+            <div class="row text-center justify-content-around">
+                <h3 class="sectionheader col-md-12">ЛЭНД ХЭТЭВЧ ГЭЖ ЮУ ВЭ? </h3>
+                <div class="headerseperator text-center"></div>
+                <p class="col-md-12 subheadercenter">Гар утасны аппликейшн ашиглан зээл авах, төлбөр төлөх, орлого хүлээн авах<br> хамгийн хялбар төлбөрийн хэрэгсэл юм.</p>
+            </div>
+            <section class="pdb-block pb-0">          
+                 <div class="row text-center text-lg-right align-items-center">
+                   <div class="col-12 col-sm-6 col-lg-3"> <img alt="image" class="fdb-icon2" src="lend2.svg">
+                        <h4><strong>БАРЬЦААГҮЙ <br>ЗЭЭЛ</strong></h4>
+                        <p>Хэзээ ч, хаанаас ч гар утсаараа 50’000 - 2 сая хүртэлх төгрөгийг 7, 14, 21, 30 хоногийн хугацаатай зээлээрэй.</p> <img alt="image" class="fdb-icon2 mt-3 mt-xl-5" src="lend3.svg">
+                        <h4><strong>ТӨЛБӨР, ХУДАЛДАН АВАЛТ</strong></h4>
+                        <p>Сар бүрийн хэрэглээний төлбөрүүдээ төлөх, Лэндээр үйлчлэгч байгууллагуудаас худалдан авалт хийж хөнгөлөлт эдлэх боломжтой.</p>
+                    </div>
+                    <div class="col-7 col-sm-4 col-lg-4 m-auto pt-5"> <img alt="image" class="img-fluid br-b-0" src="lend4.png"> </div>
+                    <div class="col-12 col-sm-6 col-lg-3 col"> <img alt="image" class="fdb-icon2" src="lend5.svg">
+                        <h4><strong>ЛЭНДДИЙ<br> ШИЛЖҮҮЛЭГ 0₮</strong></h4>
+                        <p>Лэнд хэтэвчтэй хэрэглэгчид хоорондоо гар утасны дугаараар эсвэл банкны данс руу гүйлгээний нэмэлт хураамжгүйгээр мөнгө шилжүүлнэ.</p> <img alt="image" class="fdb-icon2 mt-3 mt-xl-5" src="lend6.svg">
+                        <h4><strong>БОНУС<br> ОНОО</strong></h4>
+                        <p>Лэнд хэтэвчээр хийсэн үйлдэл бүртээ бонус оноо цуглуулан зээлийн хэмжээгээ нэмэгдүүлж, шимтгэлээ бууруулаарай.</p>
+                     </div>                    
+                  </div>                 
+            </section>
+    </div> 
+           <hr class="">  
+     <div class="row justify-content-center" style="margin-top: 20px; margin-bottom: 20px">
+        <div class="col-md-12 text-center">
+            <a href="#" target="_blank" class="b btn-download"><img src="lend7.png"> Appstore-c татах</a>
+            <a href="#" target="_blank" class="b btn-download"><img src="lend8.png"> Playstore-c татах</a>
+        </div>
+    </div>
+          <hr class="">
+
+    <div class="container heseg">
+        <div class="row text-center justify-content-center ">
+            <h3 class="sectionheader col-md-12">ХЭРЭГЛЭГЧ БОЛОХ АЛХАМ</h3>
+            <div class="headerseperator"></div>
+            <p class="col-md-12 subheadercenter mb-5"></p>
+            <section class="col-md-12 mb-5 bg-image-full" style="background-image: url('lend8.jpg');">
+                <div style="height: 300px;"></div>
+            </section>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend9.svg">
+                <h6>1. ЛЭНД ХЭТЭВЧ</h6>
+                <p>App store эсвэл Play store-оос LendMN гэж хайн гар утсандаа суулгаарай. </p>
+            </div>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend10.svg">
+                <h6>2. МЭДЭЭЛЭЛ </h6>
+                <p>Гар утасны дугаараар бүртгүүлж, утасныхаа камераар иргэний үнэмлэхний зургаа оруулаарай.</p>
+            </div>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend11.svg">
+                <h6>3. УРАМШУУЛАЛ</h6>
+                <p>Танд Лэнд хэтэвч амжилттай нээгдлээ. Хэтэвчээр дамжуулан ЛэндМН-ээс мөнгөн урамшуулал аваарай.</p>
+            </div>
+            <div class="col-md-4" style="padding:20px 0;"> <a href="" type="a" class="btn btn-secondary ion-ios-location"> Гэрээ хийх цэгүүд</a> </div>
+        </div>
+    </div>
+    <hr class="">
+    <div class="container heseg">
+        <div class="row text-center justify-content-center ">
+            <h3 class="sectionheader col-md-12">ХЭТЭВЧЭЭ ЦЭНЭГЛЭХ БОЛОМЖУУД</h3>
+            <div class="headerseperator"></div>
+            <p class="col-md-12 subheadercenter mb-5"></p>
+            <section class="col-md-12 mb-5 bg-image-full" style="background-image: url('lend13.jpg');">
+                <div style="height: 300px;"></div>
+            </section>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend14svg.svg">
+                <h6> ЗЭЭЛЭЭР ЦЭНЭГЛЭХ</h6>
+                <p>ЛэндМН зээлийн анкет бөглөж, орлогоо баталгаажуулснаар 50’000 - 2 сая төгрөгийн барьцаагүй зээлээр цэнэглэх боломжтой </p>
+            </div>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend15r.svg">
+                <h6> ДАНСААР ЦЭНЭГЛЭХ </h6>
+                <p>Өөрийн банкны данснаас мөнгөн шилжүүлэг хийж Лэнд хэтэвчээ цэнэглээрэй.</p>
+            </div>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend16.svg">
+                <h6> QR КОДООР ЦЭНЭГЛЭХ</h6>
+                <p>Лэнд хэтэвчнийхээ QR кодыг ашиглан бусдаас орлого хүлээн авч цэнэглэх боломжтой.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="">
+    <div class="container heseg ger">
+        <div class="row text-center justify-content-center ">
+            <h3 class="sectionheader col-md-12">ХЭТЭВЧЭЭР ХЭРХЭН ТӨЛБӨР ТӨЛӨХ ВЭ?</h3>
+            <div class="headerseperator"></div>
+            <p class="col-md-12 subheadercenter mb-5">Лэндээр үйлчлэгч дэлгүүр, үйлчилгээний цэгүүдэд Лэнд хэтэвчээ ашиглан худалдан авалт хийж,
+                бүх төрлийн төлбөр төлөх боломжтой.</p>
+            <section class="col-md-12 mb-5 bg-image-full" style="background-image: url('lend17.jpg');">
+                <div style="height: 300px;"></div>
+            </section>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend18.svg">
+                <h6>УТАСНЫ ДУГААРААР ТӨЛӨХ</h6>
+                <p></p>
+            </div>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend19.svg">
+                <h6>QR КОДООР ТӨЛӨХ</h6>
+                <p></p>
+            </div>
+            <div class="col-md-4"> <img alt="image" class="fdb-icon" src="lend20.svg">
+                <h6>ОНЛАЙНООР ТӨЛӨХ</h6>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <hr class="">
+    <div class="container heseg" style="padding-bottom: 60px;">
+        <div class="row text-center justify-content-center ">
+            <h3 class="sectionheader col-md-12">ТАВИГДАХ ШААРДЛАГА</h3>
+            <div class="headerseperator"></div>
+            <p class="col-md-12 subheadercenter mb-5">Та манай хэрэглэгч болоход тавигдах шаардлагатай танилцана уу.</p>
+            <section class="col-md-6 mb-5 bg-image-full" style="background-image: url('lend21.jpg');">
+                <div style="height: 300px;"></div>
+            </section>
+            <div class="col-md-6 text-left align-self-center ul">
+                <ul clsss="">
+                    <li>18 нас хүрсэн Монгол улсын иргэн байх</li>
+                    <li>Тогтмол орлоготой ба орлогоо банк (Худалдаа Хөгжлийн Банк, Голомт Банк, Хаан Банк, ХасБанк, Төрийн Банк)-ны дансаар авдаг байх</li>
+                    <li>Монгол банкны зээлийн мэдээллийн санд чанаргүй зээлийн түүхгүй байх</li>
+                    <li>Ухаалаг гар утастай байх. iPhone IOS 8.0 болон түүнээс дээш, Android OS 4.1 болон түүнээс дээш үзүүлэлттэй байх</li>
+                    <li>Facebook хаягтай байх</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-placeholder">
+        <a href="#" id="back-to-top" class="ion-chevron-up" title="Back to top"></a>
+        <footer id="footer" class="bg_lightgrey">
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class=" d-none d-md-block col-md-3 col-sm-6  col-xs-6">
+                            <h6>Бидний тухай</h6>
+                            <a href="#"><p>ЛэндМН ББСБ</p></a>
+                            <a href="#"><p>Нээлттэй ажлын байр</p></a>
+                            <a href="#"><p>AНД Глобал</p></a>
+                            <a href="#"><p>АНД Системс</p></a>
+                            <a href="#"><p>Мэдээ мэдээлэл</p></a>
+                        </div>
+                        <div class=" d-none d-md-block col-md-3 col-sm-6 col-xs-6">
+                            <h6> ЛэндМН хэтэвч</h6>
+                            <a href="product.html">
+                                <p>Давуу талууд</p>
+                            </a>
+                            <a href="product.html#terms">
+                                <p>Үйлчилгээний нөхцөл</p>
+                            </a>
+                            <a href="product.html#require">
+                                <p>Тавигдах шаардлага</p>
+                            </a>
+                            <a href="product.html#signup">
+                                <p>Хэрэглэгч болох</p>
+                            </a>
+                        </div>
+                        <div class=" d-none d-md-block col-md-3 col-sm-6 col-xs-6 ">
+                            <h6>Тусламж</h6>
+                            <a href="help.html#videos">
+                                <p>Заавар видео</p>
+                            </a>
+                            <a href="help.html#faq">
+                                <p>Түгээмэл асуулт</p>
+                            </a>
+                            <a href="help.html#notarylocations">
+                                <p>Гэрээ хийх цэгүүд</p>
+                            </a>
+                            <a href="help.html#versionhistory">
+                                <p>Апп хувилбарын түүх</p>
+                            </a>
+                            <a href="privacy_policy.html">
+                                <p>Хувийн мэдээллийн бодлого</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <h6>Холбоо барих</h6>
+                            <p class="ion-android-mail"> contact@lend.mn
+                                <br><span class="ion-ios-telephone"></span> 77070101 </p>
+                            <a href="help.html#notarylocations">
+                                <p class="ion-ios-location" style="line-height: 20px;">Улаанбаатар хот, Чингэлтэй дүүрэг, 3-р хороо, Жуулчны гудамж-34 хаягт байрлах “Pearl tower” барилга</p>
+                            </a>
+                            <a href="https://map.what3words.com/incoming.finer.diplomats">
+                                <p class="" style="line-height: 10px;"> incoming.finer.diplomats</p>
+                            </a>
+                           
+                            <p class="ion-android-time"> Даваа-Баасан :
+                                <br>Өглөө 9:00 - Орой 18:00
+                                <br>Бямба-Ням : Амарна </p>
+                        </div>
+                        <div class="col-md-12 text-center">
+                               <ul class="footerlinks">
+                                <li>
+                                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                                </li>
+                                <li>
+                                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                                </li>
+                                <li>
+                                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                                </li>
+                                <li>
+                                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                                </li>
+                            </ul>
+                        <div class="col-md-12">
+                            <p class="text-center">© 2016 - 2018 <a href="http://andsystems.net" target="_blank"> AND Systems tech LLC</a>. ALL RIGHTS RESERVED</p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navigation.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-109021624-1');
+    </script>
+     <img id="translator-icon" src="chrome-extension://chlmfnfjlieaejfpcgjkkillpnllmiai/icons/icon-128.png" style="display: none;">
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
