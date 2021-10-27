@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #d0f13b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5vh;
+}
+
+body {
+  background-color: antiquewhite;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  padding-right: 0 15px;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
