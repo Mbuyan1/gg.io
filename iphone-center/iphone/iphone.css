@@ -1,0 +1,219 @@
+body{
+    width:100%;
+    height:100%;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color:#242424;    
+    padding:0 30px;
+}
+.fusion-row{
+    margin:0 auto;
+    zoom:1px;
+    height:80px;
+}
+.fusion-row:after, .fusion-row:before {
+    content: " ";
+    display: table;
+}
+#side-header .fusion-logo, .fusion-header .fusion-logo {
+    margin-top: 15px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+.fusion-logo {
+    margin-top: -30px;
+    display: block;
+    max-width: 100%;
+    zoom: 1;
+    
+}
+.fusion-logo:after, .fusion-logo:before {
+    content: " ";
+    display: table;
+}
+.fusion-menu>ul>li {
+    padding-right: 40px;
+}
+.fusion-menu li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+     line-height: 60px;
+     height: 40px;
+}
+.fusion-menu li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 13px;;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.fusion-menu>ul>li>a:hover {
+    color: #969696;
+}
+.fusion-menu ul {
+    list-style: none;
+    margin-top: 15px 0;
+    padding: 0;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(249, 252, 252);
+    line-height: 80px;
+    float:right;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+}
+@media only screen and (max-width: 1200px){
+    .checkbtn{
+        display: block;
+    }
+    .fusion-menu ul{
+        position: fixed;
+        width:100%;
+        height:500px;
+        background-color: white;
+        top: 90px;
+        left: -10000px;
+    }
+    .fusion-menu li a{
+        color: black;
+    }
+    .fusion-menu li{
+        display: block;
+        padding-left: 20px;
+    }
+    .fusion-menu li:hover{
+        background-color: rgba(0,0,0,0.1);
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    .logo{
+        margin-left: -80%;
+    }
+    .fusion-menu{
+        margin-right: -80%;
+    }
+}
+.fusion-row{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+}
+                    section {
+                        padding-top: 50px;
+                        padding-bottom: 0;                        
+                        width:100%;                     
+                    }
+                    .fusion-row:after, .fusion-row:before {
+                        content: " ";
+                        display: table;
+                    }
+                    .fusion-row{
+                        margin:0 auto;
+                        zoom:1;
+                    }
+                    .fusion-button-text{
+                        text-decoration: none;
+                    }
+                    .main a:hover{
+                        color: seashell;
+                    }
+                    .fusion-phone{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                    }
+                    @media only screen and (max-width: 800px){
+                         .fusion-phone, .fusions, .fusion-med{
+                             flex-wrap: wrap;
+                             padding-bottom:30px;                            
+                         }
+                    
+                     } 
+                   
+                    .phone{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        height:600px;
+                        
+                    }
+                    .ipod-watch img{
+                             width:100%;
+                    }
+                    .ipod-watch{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;   
+                    }
+               
+                    .container{
+                        width: 80%;
+                        margin: auto;
+                    }
+                    .fusions{
+                        display:flex;
+                        flex-direction: row;
+                    }
+                    .fusions img{
+                        width:99%;
+                    }
+                    .fusion-med{
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                   
+                    .fusion-footer{
+                        display:flex;
+                        justify-content: space-between;
+                        flex-direction: row;
+                        padding:55px 0;
+                    }
+                    @media only screen and (max-width: 800px){
+                        .fusion-footer{
+                            flex-wrap: wrap;
+                        }
+                       .contentinfo{
+                           width: 80%;
+                       }
+                       section{
+                           width:100%;
+                       }
+                       .we li{
+                           margin-left: 2em;
+                           text-align: start;
+                           text-align: left;
+                       }
+
+                    }
+                    .contentinfo li a{
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                    }
+                  
+                    .foot{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top:40px;
+                    }
+                  
