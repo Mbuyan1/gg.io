@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+}
+#display-image {
+  display: block;
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  background-size: cover;
+}

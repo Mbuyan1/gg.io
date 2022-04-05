@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  line-height: 30px;
+}
+#header {
+  display: flex;
+  justify-content: center;
+}
+#button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#container {
+  background-color: rgb(243, 248, 244);
+  border: 2px solid black;
+  padding: 40px;
+  width: 200px;
+}
+.account {
+  position: relative;
+  padding-bottom: 20px;
+}
+.account input {
+  display: block;
+}
+.account small {
+  position: absolute;
+  visibility: hidden;
+}
+.account.success input {
+  border: 2px solid #2cee71;
+}
+.account.error input {
+  border: 2px solid #e74c3c;
+}
+.account.error small {
+  visibility: visible;
+  color: #e74c3c;
+  margin-top: 0px;
+  padding: 0%;
+}
